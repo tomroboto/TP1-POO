@@ -9,5 +9,6 @@ import lombok.ToString;
 @AllArgsConstructor 
 
 public abstract class Cliente {
+    //Atributos
     private int numeroCliente;
 }

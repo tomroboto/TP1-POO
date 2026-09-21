@@ -8,10 +8,12 @@ import lombok.ToString;
 @Setter 
 @ToString (callSuper = true)
 public class ClienteIndividual extends Cliente{
+    //Atributos
     private String nombre;
     private String apellido;
     private int dni;
 
+    //Métodos
     public ClienteIndividual(int numeroCliente, String nombre, String apellido, int dni) {
         super(numeroCliente);
         this.nombre = nombre;

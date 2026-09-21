@@ -18,7 +18,7 @@ public abstract class Cuenta {
     private Cliente cliente;
     private float saldo;
 
-    //Métodos
+    //Métodos abstractos
     public abstract void depositarEfectivo(float cantidad);
     public abstract void extraerEfectivo(float cantidad);
 
